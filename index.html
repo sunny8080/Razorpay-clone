@@ -13,9 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,900;1,1000&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <div class="wrappe min-h-screen">
-      <!-- navabar section -->
-      <nav class="navbar bg-deepBlue">
+    <div class="wrapper relative overflow-x-hidden w-full">
+      <!-- navbar section -->
+      <nav class="navbar-section navbar bg-deepBlue">
         <div class="flex flex-row w-[1080px] mx-auto justify-between items-center">
           <a href="#" class="cursor-pointer py-8 pr-[22px]">
             <img class="-translate-y-[2px]" width="125px" height="30px" src="./images/logo.svg" alt="" />
@@ -86,7 +86,42 @@
 
       <!-- ----------- intro section ----------- -->
 
-      <div class="bg-deepBlue h-[800px]"></div>
+      <section class="relative h-[570px] bg-deepBlue">
+        <div class="w-11/12 mx-auto max-w-[1080px] flex flex-row justify-between items-center">
+          <!-- intro left -->
+          <div class="space-y-8">
+            <h1 class="font-mullish font-extrabold text-[40px] leading-[1.2] text-white">Power your finance, grow your business</h1>
+            <div class="w-6 h-1 bg-greenLight"></div>
+
+            <p class="pt-1 font-mullish text-[18px] leading-7 text-white opacity-70">Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.</p>
+
+            <button class="bg-lightBlue text-white py-[13px] px-[20px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 flex justify-center items-center">
+              Sign Up Now
+
+              <span class="svg-rightArrow">
+                <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-2">
+                  <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+
+          <!-- intro right -->
+          <div class="max-w-[680px]">
+            <img class="w-full" src="./images/hero-illustration.jpg" alt="" />
+          </div>
+        </div>
+
+        <!-- bottom shape image  -->
+        <div class="absolute left-0 scale-x-[108%] right-0">
+          <img class="w-full object-fill" src="./images/hero-shape.svg" alt="" />
+        </div>
+      </section>
+
+      feature section 1
+      <section class="feature-1 bg-white h-80">
+        <div>adsf</div>
+      </section>
     </div>
   </body>
 </html>
