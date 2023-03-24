@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    /* footer a tag */
+    .footer-a{
+        @apply font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200;
+    }
+
+    /* footer subheading */
+    .footer-subhd{
+        @apply uppercase font-bold text-gray2 mb-1;
+    }
+}
+
+/*
+
+<li><a class="footer-a" href="">View Live Demo  
+                    <span class="text-white uppercase bg-green-500 rounded-sm text-xs font-bold px-1 py-[2px]">NEW</span>
+                  </a>
+                  
+  
+                  </li>
+*/
