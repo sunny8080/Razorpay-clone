@@ -16,7 +16,9 @@
   .explore-section-bacg-responsive {
     @apply scale-y-[9] scale-x-[8] translate-y-[60rem] translate-x-[10rem] 
     md:scale-y-[4.5] md:scale-x-[1.75] md:translate-y-[45rem] md:translate-x-[10rem] 
-    lg:scale-y-[2.7] lg:scale-x-[1.75] lg:translate-y-[32rem] lg:translate-x-[10rem];
+    lg:scale-y-[2.7] lg:scale-x-[1.75] lg:translate-y-[32rem] lg:translate-x-[10rem]
+    xl:scale-y-[2.3] xl:scale-x-[1.75] xl:translate-y-[32rem] xl:translate-x-[10rem]
+    2xl:scale-y-[2.2] 2xl:scale-x-[2] 2xl:translate-y-[32rem] 2xl:translate-x-[15rem];
   }
 }
 
