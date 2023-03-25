@@ -2,24 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    /* footer a tag */
-    .footer-a{
-        @apply font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200;
-    }
+@layer components {
+  /* footer a tag */
+  .footer-a {
+    @apply font-medium text-lightBlue500 hover:text-grayBlue transition-all duration-200;
+  }
 
-    /* footer subheading */
-    .footer-subhd{
-        @apply uppercase font-bold text-gray2 mb-1;
-    }
+  /* footer subheading */
+  .footer-subhd {
+    @apply uppercase font-bold text-gray2 mb-1;
+  }
 }
 
-/*
+* {
+  font-family: "Mulish", sans-serif;
+}
+.core-feature-section {
+  background-size: 100% 100%;
+}
+.companiesList {
+  animation: showCompany 10s linear 0s infinite;
+}
 
-<li><a class="footer-a" href="">View Live Demo  
-                    <span class="text-white uppercase bg-green-500 rounded-sm text-xs font-bold px-1 py-[2px]">NEW</span>
-                  </a>
-                  
-  
-                  </li>
-*/
+@keyframes showCompany {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: -50%;
+  }
+}
+
+footer {
+  background: linear-gradient(to right, #eef9fe, #edf7ff);
+}
